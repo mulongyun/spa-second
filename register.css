@@ -65,27 +65,6 @@ ul,li,ol {
     top: 190px;
 }
 
-/* .success {
-    width: 16px;
-    height: 16px;
-    background-size: contain;
-    left: -80px;
-    top: 12px;
-    position: relative;
-    float: right;
-    line-height: 12px;
-    background-color: rgba(0, 0, 0, 0);
-    background-position-x: 0%;
-    background-position-y: 0%;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-image: url(./img/setpwd-success-2x.png);
-    background-size: contain;
-    background-origin: padding-box;
-    background-clip: border-box;
-    color: #fc4343;
-} */
-
 .username-tips {
     width: 317px;
     height: 39px;
