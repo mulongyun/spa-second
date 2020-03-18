@@ -1,0 +1,272 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+ul,li,ol {
+    list-style: none;
+}
+
+.content {
+    position: absolute;
+    width: 430px;
+    height: 518px;
+    right: 500px;
+    top: 15%;
+    background-color: rgba(234, 231, 225, 0.9);
+    padding: 40px;
+    border-radius: 20px;
+}
+.font {
+    font-size: 14px;
+    display: inline;
+    color: #9B9B9B;
+}
+
+.container {
+    margin-top: 40px;
+}
+
+.username {
+    height: 65px;
+}
+
+.label {
+    font-size: 14px;
+    color: #333;
+    letter-spacing: 0;
+    text-align: right;
+    width: 82px;
+    height: 40px;
+    line-height: 40px;
+    margin-right: 15px;
+    font-weight: 200;
+}
+
+.input {
+    padding: 11px 10px;
+    max-height: 40px;
+    background: #fff;
+    border: 1px solid #E0E0E0;
+    border-radius: 4px;
+    font-size: 14px;
+    width: 321px;
+    color: #000;
+    background-color: rgba(234, 231, 225, 0.9);
+}
+
+.username-error {
+    font-size: 12px;
+    color: #F55;
+    background: 0 0;
+    padding-left: 0;
+    padding-top: 0;
+    position: absolute;
+    left: 104px;
+    top: 190px;
+}
+
+.success {
+    width: 16px;
+    height: 16px;
+    background-size: contain;
+    left: -80px;
+    top: 12px;
+    position: relative;
+    float: right;
+    line-height: 12px;
+    background-color: rgba(0, 0, 0, 0);
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-image: url(./img/setpwd-success-2x.png);
+    background-size: contain;
+    background-origin: padding-box;
+    background-clip: border-box;
+    color: #fc4343;
+}
+
+.username-tips {
+    width: 317px;
+    height: 39px;
+    position: absolute;
+    left: 103px;
+    top: 100px;
+    text-align: center;
+    color: #fff;
+    background-size: 100%;
+    background: url(./img/check-username-bg-2x.png) no-repeat;
+    background-size: contain;
+}
+
+.username-tiptext {
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+}
+
+.tel {
+    height: 65px;
+}
+
+.tel-error {
+    font-size: 12px;
+    color: #F55;
+    background: 0 0;
+    padding-left: 0;
+    padding-top: 0;
+    position: absolute;
+    left: 104px;
+    top: 254px;
+}
+
+.pwd {
+    height: 65px;
+}
+
+.pwd-tip-icon {
+    width: 16px;
+    height: 16px;
+    background-size: contain;
+    left: -80px;
+    top: 12px;
+    position: relative;
+    float: right;
+    line-height: 12px;
+    background-color: rgba(0, 0, 0, 0);
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-image: url(./img/pwdtip-2x.png);
+    background-size: contain;
+    background-origin: padding-box;
+    background-clip: border-box;
+    color: #fc4343;
+}
+
+.pwd-error {
+    font-size: 12px;
+    color: #F55;
+    background: 0 0;
+    padding-left: 0;
+    padding-top: 0;
+    position: absolute;
+    left: 104px;
+    top: 318px;
+}
+
+.pwd-none {
+    font-size: 12px;
+    color: #F55;
+    background: 0 0;
+    padding-left: 0;
+    padding-top: 0;
+    position: absolute;
+    left: 104px;
+    top: 318px;
+}
+
+.pwd-tip {
+    width: 317px;
+    height: 79px;
+    top: 200px;
+    left: 122px;
+    background-color: rgba(0, 0, 0, 0);
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-image: url(./img/check-pwd-bg-2x.png);
+    background-size: contain;
+    background-origin: padding-box;
+    background-clip: border-box;
+    background-size: 100%;
+    position: absolute;
+    text-align: left;
+    color: #fff;
+    line-height: 18px;
+    padding: 12px;
+}
+
+.username-none {
+    font-size: 12px;
+    color: #F55;
+    background: 0 0;
+    padding-left: 0;
+    padding-top: 0;
+    position: absolute;
+    left: 104px;
+    top: 190px;
+}
+
+.pwd-tip-code {
+    background: 0 0;
+    box-shadow: none;
+    border: 0;
+    padding: 8.8px 0;
+    text-align: left;
+    font-size: 12px;
+    line-height: 18px;
+    margin-left: 9px;
+    width: 317px;
+}
+
+.code-input {
+    padding: 11px 10px;
+    max-height: 40px;
+    background: #fff;
+    border: 1px solid #E0E0E0;
+    border-radius: 4px;
+    font-size: 14px;
+    width: 184px;
+    color: #000;
+    background-color: rgba(234, 231, 225, 0.9);
+}
+
+.code-button {
+    color: #000;
+    border: 1px solid #E0E0E0;
+    background: #fff;
+    width: 126px;
+    border-radius: 4px;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 24px;
+    font-size: 12px;
+    height: 40px;
+    background-color: rgba(234, 231, 225, 0.9);
+}
+
+.commit {
+    padding-top: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    left: 41px;
+    position: relative;
+}
+
+.commit-input {
+    background: #BDCEFC;
+    border-radius: 25px;
+    width: 399px;
+    float: left;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    color: #fff;
+    text-align: center;
+    border: 0;
+}
+
+.qingqiu-none {
+    font-size: 12px;
+    color: #F55;
+    background: 0 0;
+    padding-left: 0;
+    padding-top: 0;
+    position: absolute;
+    left: 104px;
+    top: 380px;
+}
